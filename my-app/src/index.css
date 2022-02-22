@@ -11,7 +11,11 @@ content: "";
 display: table;
 }
 .status {
-    margin-bottom: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
     border: 1px solid #999;
     float: left;
     font-size: 24px;
@@ -20,13 +24,14 @@ display: table;
     height: 34px;
     margin-right: -1px;
     margin-top: -1px;
-    padding: 0px;
+    padding: 0;
     text-align: center;
     width: 34px;
-}
-.square:focus {
+  }
+  
+  .square:focus {
     outline: none;
-}
+  }
 .kbd-navigation .square:focus {
     background-color: #ddd;
 
